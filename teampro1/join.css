@@ -1,0 +1,28 @@
+@font-face { font-family: 'KyoboHand'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff'); font-weight: normal; font-style: normal; }
+*{
+    font-family: 'KyoboHand';
+    
+}
+.outline{
+    
+    margin-top: 5%;
+
+}
+.input{
+    border-top: 0em; border-left: 0em; border-right: 0em;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.main{
+    text-align: center;
+    text-size-adjust: 20em;
+    
+}
+
+.brbr{
+    margin-top: 5%;
+    margin-left: 37%;
+}
+.br_g{
+    margin-left: 41%;
+}
