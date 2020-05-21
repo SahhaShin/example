@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="mycss.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>1주차과제_킨더가드</title>   
+    </head>
+
+    <body>
+        
+        <table class="top">
+            <!--홈페이지 맨 윗부분-->
+            <div>
+                <td><img src="img/킨더가드.png" alt="이미지없음" width="40" height="40">
+                <td class="yellow"><h3>킨더가드</h3></td>
+            </div>
+
+            <form action="" name="search" method="post">
+                <div>
+                
+                    <td><select class="search1"><option value="">어린이집</option></select><input class="search" type="text" name="어린이집검색" placeholder="&nbsp&nbsp어린이집 이름을 입력해주세요. (예)사자어린이집" style="width:280px";><button class="button">검색</button></td>
+                    
+                </div>
+
+            </form>
+
+
+            <div>
+                <td><h5 class="margin_R">서비스 소개</h5></td>
+            </div>
+
+            <div>
+                <td><h5 class="margin_R">어린이집등록</h5></td>
+            </div>
+
+            <div>
+                <td><h5 class="margin_R">회원가입</h5></td>
+            </div>
+
+            <div>
+                <td><img src="img/my.png" alt="사진없음" width="50px" height="40px"></td>
+            </div>
+        </table>
+        <hr>
+
+        
+        <!--홈페이지 리뷰부분-->
+        <div class="mid">
+            <h4>&nbsp 리뷰 작성</h4>           
+        </div>
+
+        <div class="mid2">
+            <h5>강남일대에 학원 리뷰를 남기시면 모든 리뷰를 열람하실 수 있습니다.<br>
+            작성하신 리뷰는 익명으로 저장되며 작성자의 개인정보는 어디에도 노출되지 않습니다.<br><br>
+            리뷰 써줄 시 운영팀에 의해 심사가 이루어지며, 아래의 경우 리뷰심사에서 탈락됩니다.<br>
+            -구체적이지 못한 리뷰나 비방, 욕설, 허위사실이 투입된 리뷰<br>
+            어린이집 측 홍보성 리뷰로 판단되는 리뷰</h5>
+        </div>
+        <br>
+
+        <form action="" name="informations" method="post">
+        
+        
+        
+        <!--어린이집 정보-->
+
+        <div class="inform">
+            <br><h4>1.어린이집 정보</h4>
+            <div>
+                <h5><br>어린이집 이름</h5>
+                <input class="input" type="text" name="어린이집이름" style="width:400px; margin-left: 30px;">
+                <h5>어린이집 위치</h5>
+                <select class="select">
+                    <option value="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp특별시/도</option>
+                    <option value="서울특별시">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp서울특별시</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select class="select">
+                    <option value="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp시/군/구</option>
+                    <option value="강남구">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp강남구</option>
+                </select>
+            </div>
+
+
+            <div>
+                <br><br>
+                <select class="select">
+                    <option value="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp읍/면/동</option>
+                    <option value="-">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-</option>
+                </select>
+                <br><br><br>
+                
+            </div>
+
+
+            <!--어린이집 평가-->
+            <br><h4>2.어린이집 평가</h4>
+
+            <div>
+                <h5><br>아이 연령(현재)</h5>
+                <select class="select">
+                    <option value="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp~세</option>
+                    <option value="3세">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp3세</option>
+                </select>
+
+                <div class="left_bar">
+                    <h5 class="yellow">&nbsp지도 교사 평가</h5>
+                </div>
+
+                <h5>지도 교사 이름&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp지도 교사 평점</h5>
+                <input class="input" type="text" name="지도교사이름" style="width:400px; margin-left: 30px;border:none;">
+                <select class="no_line">
+                    <option value="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp~/5.0점</option>
+                    <option value="5점">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp5점</option>
+                </select>
+                <br>
+                <h5>지도교사 평가</h5>
+                <input class="input" type="text" name="지도교사평가" placeholder="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp지도 선생님의 지도 스타일에 대해 평가해주세요."style="width:850px; margin-left: 30px;">
+                
+                
+                <div class="left_bar">
+                    <h5 class="yellow">&nbsp어린이집 시설 평가</h5>
+                </div>
+                <h5><br>어린이집 방문 경험&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp어린이집 시설 평점</h5>
+                <select class="select">
+                    <option value="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp유/무</option>
+                    <option value="유">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp유</option>
+                </select>
+                <select class="select">
+                    <option value="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp~/5.0점</option>
+                    <option value="5점">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp5점</option>
+                </select>
+
+                <h5>교육시설 평가</h5>
+                <input class="input" type="text" name="교육시설평가" placeholder="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp어린이집의 시설 상태에 대해 평가해주세요."style="width:850px; margin-left: 30px;">
+
+                
+                <div class="left_bar">
+                    <h5 class="yellow">&nbsp어린이집 총괄 평가</h5>
+                </div>
+
+                <h5>어린이집 평점</h5>
+                <input class="input" type="text" name="어린이집평점" style="width:400px; margin-left: 30px;border:none;" placeholder="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp~/5.0점">
+
+                <h5>어린이집 평가</h5>
+                <input class="input" type="text" name="어린이집평가" placeholder="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp어린이집의 전체적인 부분에 대해 평가해주세요."style="width:850px; margin-left: 30px;">
+                <br><br><br>
+            </div>
+
+
+            <br>
+            <p class="bottom"><button class="button2">제출하기</button></p>
+            <br><br><br>
+        </div>
+
+
+        <div><br><br><br><br></div>
+
+
+        </form>
+        <div class="inform">
+            <br><br>
+            <h5><center>창업: ~~~~~ | 대표: ooo</center></h5>
+            <h5><center>TEL: 01012345678 E-MAIL: abcd@naver.com</center></h5>
+            <h5><center>가나다라마바사 | 가나다라마바사 (주)가나다가난간가낙다라</center></h5>
+            <h5><center>Google 캔디 avcdfhjdkdhjkafd.</center></h5>
+            <br><br>
+        </div>
+        
+
+    </body>
+
+</html>
